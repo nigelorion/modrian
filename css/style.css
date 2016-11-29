@@ -70,8 +70,50 @@ div {
   float: left;
   margin: 3vh 1vw 2vh 2vw;
 }
-@media screen (max-width: 1500px){
-  #two {
-    
+
+@media (max-width: 1500px){
+  #one {
+    width: 96vw;
   }
+  #two {
+    float: left;
+    width: 47vw;
+  }
+  #three {
+    float: left;
+    width: 47vw;
+  }
+  #four {
+    width: 96vw;
+  }
+  #five {
+    width: 47vw;
+  }
+  #six {
+    width: 47vw;
+  }
+  #seven {
+    width: 96vw;
+    position: static;
+    margin: 1vh 1vw 1vh 1vw;
+  }
+  #eight {
+    width: 45vw;
+    margin: 1vh 2vw 1vh 2vw;
+  }
+  #nine {
+    width: 45vw;
+    float: left;
+    margin: 1vh 2vw 1vh 2vw;
+  }
+}
+@media (max-width: 750px){
+
+  #one, #two, #three, #four, #five, #six, #seven, #eight, #nine {
+    float: none;
+    width: 96vw;
+    margin: 2vh auto;
+  }
+
+
 }
